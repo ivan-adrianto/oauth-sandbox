@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oauth Sandbox</title>
+</head>
+
+<body>
+    <section>
+        <h1>Welcome to VCGamers Oauth Sandbox</h1>
+        <p>Login with</p>
+        <a
+            href="http://localhost:3500/oauth/login?client_id=e3e3b785-8c4a-4005-951a-4f4a8b3a274b&redirect_url='https://auth.vcg.asia/oauth/login'&wanted_scope=1">
+            <button>
+                <img src="/img/logo-vcg.png" alt="vcg">
+                <p>VCGamers</p>
+            </button>
+        </a>
+    </section>
+</body>
+
+<script>
+    // const button = document.querySelector("button")
+    // button.addEventListener("click", () => window.open("http://localhost:3500/oauth/login?client_id=e3e3b785-8c4a-4005-951a-4f4a8b3a274b&client_secret_id=67e3aa3ac190384ef71db464f833ca73dc32d69bdbecf181ca6937e6f14d0b4b52086d463e92f840841e37a70f02"))
+</script>
+
+<style>
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    button {
+        height: 40px;
+        width: 160px;
+        border-radius: 10px;
+        outline: 0px;
+        border: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #6D52F7;
+        cursor: pointer;
+    }
+
+    img {
+        max-height: 100%;
+        margin-right: 10px;
+    }
+
+    button p {
+        font-weight: 700;
+        color: white;
+
+    }
+</style>
+
+</html>
